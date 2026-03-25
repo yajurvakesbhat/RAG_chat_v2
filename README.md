@@ -1,6 +1,9 @@
-create a new .env file in the root diretictory 
-and add this code :
-.env:
-MONGODB_URI=Your_mongodb_url
-VITE_GEMINI_API_KEY=Your_gemini_apikey
+Creat a .env File in Root Directory 
+
+.env file has :
+
+MONGODB_URI=YOUR_MONGODB_URI
+
+VITE_GEMINI_API_KEY=GEMINI_API_KEY
+
 
