@@ -1,4 +1,4 @@
-# OpsMind-AI - PDF RAG Chatbot
+# RAG_CHAT - PDF RAG Chatbot
 
 A full-stack Retrieval-Augmented Generation (RAG) chatbot application. This application allows users to upload PDF documents, processes them by extracting and chunking the text, stores the embeddings in MongoDB, and provides an intelligent chat interface powered by the Google Gemini API to query the document content.
 
@@ -8,11 +8,11 @@ A full-stack Retrieval-Augmented Generation (RAG) chatbot application. This appl
 - **Smart Chunking**: Splits extracted text into manageable chunks with overlap for better context retention.
 - **Vector Search**: Computes embeddings and uses Cosine Similarity to retrieve the most relevant sections of the document based on your query.
 - **AI-Powered Chat**: Integrates with Google Gemini API to generate accurate, context-aware answers using the retrieved document context.
-- **Modern UI**: Clean and responsive React frontend built with Vite, Tailwind CSS, and Framer Motion.
+- **Modern UI**: Clean and responsive React frontend built with Vite, Tailwind CSS.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 19, Vite, Tailwind CSS, Framer Motion
+- **Frontend**: React 19, Vite, Tailwind CSS
 - **Backend**: Node.js, Express
 - **Database**: MongoDB (Mongoose)
 - **AI Engine**: Google Gemini API (`@google/genai`)
